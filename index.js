@@ -1,17 +1,18 @@
+'use strict'
 // 1. Написать функцию сложения двух чисел
 
-function sumTwoNumbers(a,b) {
-    result = a + b;
-}
+// function sumTwoNumbers(a,b) {
+//     result = a + b;
+// }
 
 
-let a = parseInt(prompt("Вводите 1-ое число:"));
+// let a = parseInt(prompt("Вводите 1-ое число:"));
 
-let b = parseInt(prompt("Вводите 2-ое число:"));
+// let b = parseInt(prompt("Вводите 2-ое число:"));
 
-sumTwoNumbers(a,b);
+// sumTwoNumbers(a,b);
 
-alert("Your result is: " + result);
+// alert("Your result is: " + result);
 
 
 // 2. Написать функцию, которая выводит в консоль четные числа от a до b (a, b – параметры функции)
@@ -88,10 +89,10 @@ alert("Your result is: " + result);
 // 6. (NOT DONE) Realize pipe pattern
 // const multiplyTwo = function (a) { return a * 2; }
 // const minusFour = (n, y) => n - y;
-// const minusFour = (n, y) => n - y;
+// const plusSix = (n, y) => n - y;
+
 
 
 // 7. (NOT DONE) Realize memo pattern
 // const sum = (a,b) => a + b;
 // const memedSum = memo(sum);
-
